@@ -1,10 +1,23 @@
-# Byte-compiled / optimized / DLL files
+#Data Files
+data/
+
+
+
+ Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
+#ipython checkpoint
+.ipython_checkpoint
+
 # C extensions
 *.so
+
+# MAC files
+.DS_Store
+._.DS_Store
+._*
 
 # Distribution / packaging
 .Python
@@ -53,8 +66,9 @@ coverage.xml
 
 # Django stuff:
 *.log
+.static_storage/
+.media/
 local_settings.py
-db.sqlite3
 
 # Flask stuff:
 instance/
